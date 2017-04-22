@@ -28,6 +28,7 @@ MATCH(t:Times) RETURN t.times
 MATCH(l:Lecturs) RETURN l.name
 
 This is a query I attempted but it would not return any values:
+
 MATCH p=(l:Lecturs)-[r:Monday]->(s:Subject) WHERE s.name="Database Management" RETURN p
 
 
