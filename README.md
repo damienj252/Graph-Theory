@@ -20,8 +20,11 @@ On another note I found this project to be quite enjoyable and I believe I have 
 After completing this project I created some queries to test the graph created they are listed below:
 These are the queries that work and gave me a return value.
 MATCH(g:Groups) RETURN g.group
+
 MATCH(d:Days) RETURN d.day
+
 MATCH(t:Times) RETURN t.times
+
 MATCH(l:Lecturs) RETURN l.name
 
 This is a query I attempted but it would not return any values:
